@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#ffffff"/>
+  <style>
+    .card{fill:#fff;stroke:#e5e7eb;stroke-width:2}.h{font:700 32px Arial,sans-serif;fill:#1f2937}.t{font:400 27px Arial,sans-serif;fill:#111827}.muted{font:400 25px Arial,sans-serif;fill:#6b7280}.small{font:400 22px Arial,sans-serif;fill:#6b7280}.good{font:700 28px Arial,sans-serif;fill:#047857}
+  </style>
+  <rect class="card" x="20" y="20" width="1160" height="90" rx="12"/>
+  <text class="h" x="50" y="75">ИВАНОВ ИВАН ИВАНОВИЧ</text>
+  <rect x="205" y="84" width="42" height="26" rx="13" fill="#eee7ff"/><text class="small" x="216" y="105" fill="#6b21a8">ИП</text>
+  <rect x="290" y="84" width="210" height="26" rx="13" fill="#dcfce7"/><text class="small" x="302" y="105" fill="#047857">Данные: Заполнены</text>
+  <rect class="card" x="20" y="130" width="560" height="520" rx="12"/>
+  <text class="h" x="50" y="185">Основное</text>
+  <text class="muted" x="50" y="255">ФИО / Название:</text><text class="t" x="260" y="255">ИВАНОВ ИВАН ИВАНОВИЧ</text>
+  <text class="muted" x="50" y="315">Правовая форма:</text><text class="t" x="260" y="315">ИП</text>
+  <text class="muted" x="50" y="375">ИНН:</text><text class="t" x="260" y="375">••••••••••••</text>
+  <text class="muted" x="50" y="435">Адрес:</text><text class="t" x="260" y="435">••••••••••••••••••</text>
+  <rect class="card" x="620" y="130" width="560" height="260" rx="12"/>
+  <text class="h" x="650" y="185">Контакты</text>
+  <text class="muted" x="650" y="255">Контактное лицо:</text><text class="t" x="870" y="255">ИП ИВАНОВ ИВАН ИВАНОВИЧ</text>
+  <rect class="card" x="620" y="420" width="560" height="230" rx="12"/>
+  <text class="h" x="650" y="475">Целевой вид после распознавания</text>
+  <text class="muted" x="650" y="545">ФИО / Название:</text><text class="good" x="870" y="545">Иванов Иван Иванович</text>
+  <text class="small" x="30" y="690">Sanitized mock evidence: реальные реквизиты скрыты; показана только проблема регистра ФИО ИП.</text>
+</svg>
