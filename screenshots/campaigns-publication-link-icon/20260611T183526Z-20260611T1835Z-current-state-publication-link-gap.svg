@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+  <rect width="1200" height="650" fill="#f6f8fb"/>
+  <text x="48" y="54" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1f2937">Кампании → карточка кампании → размещения</text>
+  <text x="48" y="88" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Схематичная фиксация текущего состояния: в колонке «Публикация» есть дата, но нет иконки/ссылки на публикацию.</text>
+  <rect x="48" y="128" width="1104" height="368" rx="14" fill="#ffffff" stroke="#d7dde8"/>
+  <rect x="48" y="128" width="1104" height="54" rx="14" fill="#eef3ff"/>
+  <line x1="48" y1="182" x2="1152" y2="182" stroke="#d7dde8"/>
+  <g font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#374151">
+    <text x="72" y="162">№</text>
+    <text x="180" y="162">Канал</text>
+    <text x="380" y="162">Блогер</text>
+    <text x="570" y="162">План</text>
+    <text x="710" y="162">Публикация</text>
+    <text x="890" y="162">Расходы</text>
+    <text x="1030" y="162">Статус</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#111827">
+    <line x1="48" y1="236" x2="1152" y2="236" stroke="#eef0f4"/>
+    <text x="72" y="216" fill="#2563eb" font-weight="700">12842</text>
+    <text x="180" y="216">Канал</text>
+    <text x="380" y="216">Блогер</text>
+    <text x="570" y="216">18.06.26</text>
+    <text x="710" y="216">20.06.26</text>
+    <text x="890" y="216">12 500 ₽</text>
+    <text x="1030" y="216">Опубликовано</text>
+    <line x1="48" y1="290" x2="1152" y2="290" stroke="#eef0f4"/>
+    <text x="72" y="270" fill="#2563eb" font-weight="700">12843</text>
+    <text x="180" y="270">Канал</text>
+    <text x="380" y="270">Блогер</text>
+    <text x="570" y="270">21.06.26</text>
+    <text x="710" y="270">—</text>
+    <text x="890" y="270">8 000 ₽</text>
+    <text x="1030" y="270">В работе</text>
+  </g>
+  <rect x="690" y="190" width="148" height="42" rx="8" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <path d="M845 206 h58 a7 7 0 0 1 7 7 v0 a7 7 0 0 1 -7 7 h-58" fill="none" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
+  <text x="690" y="344" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#b91c1c">Gap</text>
+  <text x="690" y="374" font-family="Arial, sans-serif" font-size="15" fill="#374151">Колонка «Публикация» рендерит только дату публикации.</text>
+  <text x="690" y="400" font-family="Arial, sans-serif" font-size="15" fill="#374151">Отдельной иконки внешней ссылки и URL публикации в campaign placements response нет.</text>
+  <rect x="48" y="530" width="1104" height="74" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="72" y="562" font-family="Arial, sans-serif" font-size="15" fill="#92400e">Evidence: frontend/src/pages/Campaigns/CampaignDetail.tsx рендерит publication_date как дату; backend CampaignPlacementDetail не содержит publication_url.</text>
+  <text x="72" y="586" font-family="Arial, sans-serif" font-size="15" fill="#92400e">Это не live-скрин с пользовательскими данными, а GitHub-visible схема current-state gap.</text>
+</svg>
